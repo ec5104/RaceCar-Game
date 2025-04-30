@@ -23,6 +23,7 @@
         <!-- Set the background colour of the document -->
         <style>
             body {
+
                 background: #0;
                 color: #cccccc;
                 margin: 0px;
@@ -31,6 +32,20 @@
                 background-image: url(background.jpg);
                 background-size: 100vw 100vh;
                 background-repeat: no-repeat;
+            }
+
+            .container{
+                outline: 5px dotted green;
+                color: black;
+                margin-top: 20px;
+                margin-left: 20px;
+                width: 40%;
+                word-spacing: 5px;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                align-items: flex-start;
             }
 
             canvas {
@@ -83,14 +98,18 @@
         </style>
 
         <!-- Custom PostStyle code is injected here -->
-        
 
         <!-- Builtin injector for injecting flurry analytics code -->
         
     </head>
 
-    <!-- Custom PostHead code is injected here -->
-    
+    <!-- Custom PostHead code is injected here -->    
+    <div class = "container">
+        <div>Creator: Ethan Chen</div>
+        <div> Goal: Try to reach the end as fast as possible!</div>
+        <div> Controls: Press ← and → to avoid obstacles</div>
+        <div> Tip: Blue Powerups grants speedup & invulnerability!</div>
+    </div>
 
     <!-- Custom PreBody code is injected here -->
     
